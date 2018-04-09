@@ -36,7 +36,7 @@ includeantruntime="false">
   <target name="sonar" depends="compile">
 		<taskdef uri="antlib:org.sonar.ant" resource="org/sonar/ant/antlib.xml">
 			<!-- Update the following line, or put the "sonar-ant-task-*.jar" file in your "$HOME/.ant/lib" folder -->
-			<classpath path="C:\Program Files\Git\bin\git.exe" />
+			<classpath path="C:\apache-ant-1.10.2\lib" />
 		</taskdef>
 		
 		<!-- Execute SonarQube Scanner for Ant Analysis -->
